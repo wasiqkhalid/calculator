@@ -86,7 +86,7 @@ function checkCorrectFirst(firstDigit) {
                
     }
     
-    if((firstDigit == "=") && (mainDiv.textContent != "") && (smallDiv.textContent != "")) {
+    if((firstDigit == "=") && (mainDiv.textContent != "") && (smallDiv.textContent != "" )) {
         const secondnum = mainDiv.textContent;
         const firstnum = document.getElementById("1099").textContent;
         const op = document.getElementById("2099").textContent;
@@ -108,7 +108,7 @@ clearbtn.addEventListener('click', () =>{
     mainDiv.textContent = "";
     const smallDiv = document.querySelector(".small");
     smallDiv.textContent = "";
-})
+});
 
 //backspace / delete button
 const deletebtn = document.getElementById("del");
@@ -117,6 +117,4 @@ deletebtn.addEventListener('click', () =>{
     const text = mainDiv1.textContent;
     const editedText = text.slice(0, -1);
     mainDiv1.textContent = editedText;
-    
-
-})
+});
