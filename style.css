@@ -42,13 +42,14 @@ body{
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
+    font-size: 15px;
 }
 .main {
     width: inherit;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 50px;
+    font-size: 30px;
     height: inherit;
 }
 /* Clear Delete buttons */
@@ -63,6 +64,7 @@ body{
     height: 50px;
     width: inherit;
     font-size: 20px;
+    color: blue;
 }
 /* Number and Operators */
 .digits-ops-wrapper {
@@ -87,6 +89,7 @@ body{
 .add, .subtract, .multiply, .divide {
     height: 50px;
     font-size: 30px;
+    color: red;
 }
 /* Numbers */
 .digits {
